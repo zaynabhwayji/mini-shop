@@ -1,6 +1,6 @@
 import './App.css'
 import ProductList from './components/ProductList';
-import { PRODUCTS } from './data';
+import { PRODUCTS } from './lib/data';
 import NavBar from './components/Navbar';
 import CartSummary from './components/CartSummary';
 import { useCart } from './context/CartContext';
