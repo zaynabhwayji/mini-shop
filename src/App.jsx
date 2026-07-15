@@ -1,7 +1,7 @@
 import './App.css'
 import ProductList from './components/ProductList';
 import { PRODUCTS } from './lib/data';
-import NavBar from './components/Navbar';
+import NavBar from './components/NavBar';
 import CartSummary from './components/CartSummary';
 import { useCart } from './context/CartContext';
 import { useTheme } from './context/ThemeContext';
